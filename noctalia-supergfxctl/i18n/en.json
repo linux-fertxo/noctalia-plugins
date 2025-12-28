@@ -1,13 +1,26 @@
 {
 	"gpu": "GPU",
 	"unknown": "Unknown",
+	"settings": {
+		"debug": {
+			"label": "Debug mode",
+			"description": ""
+		},
+		"polling": {
+			"label": "Polling",
+			"description": ""
+		},
+		"listenToNotifications": {
+			"label": "Listen to notifications",
+			"description": ""
+		}
+	},
 	"context-menu": {
 		"refresh": "Refresh status"
 	},
 	"action": {
-		"required": "required",
-		"SwitchToIntegrated": "Switch to integrated gpu",
-		"AsusEgpuDisable": "Disable ASUS eGPU First"
+		"SwitchToIntegrated": "Switch to integrated gpu first",
+		"AsusEgpuDisable": "Disable ASUS eGPU first"
 	},
 	"mode": {
 		"Integrated": "Integrated",

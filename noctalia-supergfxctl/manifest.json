@@ -18,7 +18,10 @@
 	},
 	"metadata": {
 		"defaultSettings": {
-			"debug": false
+			"debug": false,
+			"polling": true,
+			"pollingInterval": 3000,
+			"listenToNotifications": true
 		}
 	}
 }
