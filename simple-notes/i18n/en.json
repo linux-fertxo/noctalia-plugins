@@ -1,0 +1,32 @@
+{
+  "panel": {
+    "header": {
+      "title": "Notes",
+      "add_button": "New Note"
+    },
+    "list": {
+      "empty_message": "No notes yet. Create one!",
+      "last_modified": "Last modified: "
+    },
+    "editor": {
+      "title_placeholder": "Note Title",
+      "content_placeholder": "Write your thoughts here...",
+      "save_button": "Save",
+      "cancel_button": "Cancel",
+      "delete_button": "Delete"
+    },
+    "confirm": {
+      "delete_title": "Delete Note?",
+      "delete_message": "Are you sure you want to delete this note?"
+    }
+  },
+  "bar_widget": {
+    "tooltip": "Simple Notes"
+  },
+  "settings": {
+    "show_count": {
+      "label": "Show Note Count",
+      "description": "Show the number of notes in the bar widget"
+    }
+  }
+}
