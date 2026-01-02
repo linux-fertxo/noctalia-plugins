@@ -1,33 +1,33 @@
 {
-	"gpu": "GPU",
-	"unknown": "Unknown",
-	"settings": {
-		"debug": {
-			"label": "Debug mode",
-			"description": "Prints debug output in console"
-		},
-		"polling": {
-			"label": "Polling",
-			"description": "Enable/disable polling of supergfxctl process"
-		},
-		"listenToNotifications": {
-			"label": "Listen to notifications",
-			"description": "Listen to rog-control-center notifications"
-		}
-	},
-	"context-menu": {
-		"refresh": "Refresh status"
-	},
-	"action": {
-		"SwitchToIntegrated": "Switch to integrated gpu first",
-		"AsusEgpuDisable": "Disable ASUS eGPU first"
-	},
-	"mode": {
-		"Integrated": "Integrated",
-		"Hybrid": "Hybrid",
-		"NvidiaNoModeset": "Nvidia no modeset",
-		"Vfio": "VFIO",
-		"AsusEgpu": "Asus eGPU",
-		"AsusMuxDgpu": "Asus MUX dGPU"
-	}
+  "action": {
+    "AsusEgpuDisable": "Disable ASUS eGPU first",
+    "SwitchToIntegrated": "Switch to integrated gpu first"
+  },
+  "context-menu": {
+    "refresh": "Refresh status"
+  },
+  "gpu": "GPU",
+  "mode": {
+    "AsusEgpu": "Asus eGPU",
+    "AsusMuxDgpu": "Asus MUX dGPU",
+    "Hybrid": "Hybrid",
+    "Integrated": "Integrated",
+    "NvidiaNoModeset": "Nvidia no modeset",
+    "Vfio": "VFIO"
+  },
+  "settings": {
+    "debug": {
+      "description": "Prints debug output in console",
+      "label": "Debug mode"
+    },
+    "listenToNotifications": {
+      "description": "Listen to rog-control-center notifications",
+      "label": "Listen to notifications"
+    },
+    "polling": {
+      "description": "Enable/disable polling of supergfxctl process",
+      "label": "Polling"
+    }
+  },
+  "unknown": "Unknown"
 }
