@@ -1,4 +1,45 @@
 {
+  "settings": {
+    "title": "Valutaconverter Instellingen",
+    "from-currency": {
+      "label": "Bronvaluta",
+      "description": "Selecteer de bronvaluta voor conversie"
+    },
+    "to-currency": {
+      "label": "Doelvaluta",
+      "description": "Selecteer de doelvaluta voor conversie"
+    },
+    "update-interval": {
+      "label": "Update-interval",
+      "description": "Interval in minuten om wisselkoersen bij te werken"
+    },
+    "display-mode": {
+      "label": "Weergavemodus",
+      "description": "Hoe de widget in de balk wordt weergegeven",
+      "both": "Pictogram en Tekst",
+      "icon": "Alleen Pictogram",
+      "text": "Alleen Tekst"
+    }
+  },
+  "currency-converter": {
+    "title": "Valutaconverter",
+    "from": "Van",
+    "to": "Naar",
+    "swap": "Valuta's wisselen",
+    "refresh": "Koersen bijwerken"
+  },
+  "settings.title": "Valutaconverter Instellingen",
+  "settings.from-currency.label": "Bronvaluta",
+  "settings.from-currency.description": "Selecteer de bronvaluta voor conversie",
+  "settings.to-currency.label": "Doelvaluta",
+  "settings.to-currency.description": "Selecteer de doelvaluta voor conversie",
+  "settings.update-interval.label": "Update-interval",
+  "settings.update-interval.description": "Interval in minuten om wisselkoersen bij te werken",
+  "settings.display-mode.label": "Weergavemodus",
+  "settings.display-mode.description": "Hoe de widget in de balk wordt weergegeven",
+  "settings.display-mode.both": "Pictogram en Tekst",
+  "settings.display-mode.icon": "Alleen Pictogram",
+  "settings.display-mode.text": "Alleen Tekst",
   "bar.widget-settings.currency-converter.from-currency.label": "Bronvaluta",
   "bar.widget-settings.currency-converter.from-currency.description": "Selecteer de bronvaluta voor conversie",
   "bar.widget-settings.currency-converter.to-currency.label": "Doelvaluta",
@@ -11,6 +52,7 @@
   "bar.widget-settings.currency-converter.display-mode.icon": "Alleen Pictogram",
   "bar.widget-settings.currency-converter.display-mode.text": "Alleen Tekst",
   "currency-converter.title": "Valutaconverter",
+  "currency-converter.settings.title": "Valutaconverter Instellingen",
   "currency-converter.from": "Van",
   "currency-converter.to": "Naar",
   "currency-converter.swap": "Valuta's wisselen",

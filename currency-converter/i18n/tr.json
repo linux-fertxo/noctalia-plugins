@@ -1,4 +1,45 @@
 {
+  "settings": {
+    "title": "Para Birimi Dönüştürücü Ayarları",
+    "from-currency": {
+      "label": "Kaynak Para Birimi",
+      "description": "Dönüştürme için kaynak para birimini seçin"
+    },
+    "to-currency": {
+      "label": "Hedef Para Birimi",
+      "description": "Dönüştürme için hedef para birimini seçin"
+    },
+    "update-interval": {
+      "label": "Güncelleme Aralığı",
+      "description": "Döviz kurlarını güncellemek için dakika cinsinden aralık"
+    },
+    "display-mode": {
+      "label": "Görüntüleme Modu",
+      "description": "Widget'ın çubukta nasıl görüntüleneceği",
+      "both": "Simge ve Metin",
+      "icon": "Yalnızca Simge",
+      "text": "Yalnızca Metin"
+    }
+  },
+  "currency-converter": {
+    "title": "Para Birimi Dönüştürücü",
+    "from": "Kaynak",
+    "to": "Hedef",
+    "swap": "Para birimlerini değiştir",
+    "refresh": "Kurları yenile"
+  },
+  "settings.title": "Para Birimi Dönüştürücü Ayarları",
+  "settings.from-currency.label": "Kaynak Para Birimi",
+  "settings.from-currency.description": "Dönüştürme için kaynak para birimini seçin",
+  "settings.to-currency.label": "Hedef Para Birimi",
+  "settings.to-currency.description": "Dönüştürme için hedef para birimini seçin",
+  "settings.update-interval.label": "Güncelleme Aralığı",
+  "settings.update-interval.description": "Döviz kurlarını güncellemek için dakika cinsinden aralık",
+  "settings.display-mode.label": "Görüntüleme Modu",
+  "settings.display-mode.description": "Widget'ın çubukta nasıl görüntüleneceği",
+  "settings.display-mode.both": "Simge ve Metin",
+  "settings.display-mode.icon": "Yalnızca Simge",
+  "settings.display-mode.text": "Yalnızca Metin",
   "bar.widget-settings.currency-converter.from-currency.label": "Kaynak Para Birimi",
   "bar.widget-settings.currency-converter.from-currency.description": "Dönüştürme için kaynak para birimini seçin",
   "bar.widget-settings.currency-converter.to-currency.label": "Hedef Para Birimi",

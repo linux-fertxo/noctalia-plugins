@@ -153,7 +153,7 @@ Item {
             }
 
             NText {
-              text: "Conversor de Moedas"
+              text: pluginApi?.tr("currency-converter.title") || "Currency Converter"
               pointSize: Style.fontSizeL
               font.weight: Style.fontWeightBold
               color: Color.mOnSurface
@@ -162,7 +162,7 @@ Item {
 
             NIconButton {
               icon: "refresh"
-              tooltipText: "Atualizar cotações"
+              tooltipText: pluginApi?.tr("currency-converter.refresh") || "Refresh rates"
               baseSize: Style.baseWidgetSize * 0.8
               onClicked: {
                 fetchExchangeRates();
@@ -189,7 +189,7 @@ Item {
             spacing: Style.marginS
 
             NText {
-              text: "De"
+              text: pluginApi?.tr("currency-converter.from") || "From"
               color: Color.mOnSurface
               pointSize: Style.fontSizeM
               font.weight: Style.fontWeightBold
@@ -330,7 +330,7 @@ Item {
             NIconButton {
               anchors.centerIn: parent
               icon: "arrows-exchange"
-              tooltipText: "Trocar moedas"
+              tooltipText: pluginApi?.tr("currency-converter.swap") || "Swap currencies"
               baseSize: Style.baseWidgetSize * 1.2
               colorBg: Color.mPrimary
               colorFg: Color.mOnPrimary
@@ -344,7 +344,7 @@ Item {
             spacing: Style.marginS
 
             NText {
-              text: "Para"
+              text: pluginApi?.tr("currency-converter.to") || "To"
               color: Color.mOnSurface
               pointSize: Style.fontSizeM
               font.weight: Style.fontWeightBold

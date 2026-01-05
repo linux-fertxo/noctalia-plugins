@@ -1,4 +1,45 @@
 {
+  "settings": {
+    "title": "货币转换器设置",
+    "from-currency": {
+      "label": "源货币",
+      "description": "选择转换的源货币"
+    },
+    "to-currency": {
+      "label": "目标货币",
+      "description": "选择转换的目标货币"
+    },
+    "update-interval": {
+      "label": "更新间隔",
+      "description": "更新汇率的间隔（分钟）"
+    },
+    "display-mode": {
+      "label": "显示模式",
+      "description": "如何在栏中显示小部件",
+      "both": "图标和文本",
+      "icon": "仅图标",
+      "text": "仅文本"
+    }
+  },
+  "currency-converter": {
+    "title": "货币转换器",
+    "from": "源",
+    "to": "目标",
+    "swap": "交换货币",
+    "refresh": "刷新汇率"
+  },
+  "settings.title": "货币转换器设置",
+  "settings.from-currency.label": "源货币",
+  "settings.from-currency.description": "选择转换的源货币",
+  "settings.to-currency.label": "目标货币",
+  "settings.to-currency.description": "选择转换的目标货币",
+  "settings.update-interval.label": "更新间隔",
+  "settings.update-interval.description": "更新汇率的间隔（分钟）",
+  "settings.display-mode.label": "显示模式",
+  "settings.display-mode.description": "如何在栏中显示小部件",
+  "settings.display-mode.both": "图标和文本",
+  "settings.display-mode.icon": "仅图标",
+  "settings.display-mode.text": "仅文本",
   "bar.widget-settings.currency-converter.from-currency.label": "源货币",
   "bar.widget-settings.currency-converter.from-currency.description": "选择转换的源货币",
   "bar.widget-settings.currency-converter.to-currency.label": "目标货币",
@@ -11,6 +52,7 @@
   "bar.widget-settings.currency-converter.display-mode.icon": "仅图标",
   "bar.widget-settings.currency-converter.display-mode.text": "仅文本",
   "currency-converter.title": "货币转换器",
+  "currency-converter.settings.title": "货币转换器设置",
   "currency-converter.from": "从",
   "currency-converter.to": "到",
   "currency-converter.swap": "交换货币",

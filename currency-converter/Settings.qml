@@ -72,7 +72,7 @@ ColumnLayout {
   }
 
   Text {
-    text: "Configurações do Conversor de Moedas"
+    text: pluginApi?.tr("settings.title") || "Currency Converter Settings"
     font.pointSize: 14
     font.weight: Font.Bold
     color: "#FFFFFF"
@@ -80,8 +80,8 @@ ColumnLayout {
   }
 
   NComboBox {
-    label: "Moeda de Origem"
-    description: "Selecione a moeda de origem para conversão"
+    label: pluginApi?.tr("settings.from-currency.label") || "From Currency"
+    description: pluginApi?.tr("settings.from-currency.description") || "Select the source currency for conversion"
     Layout.fillWidth: true
     model: currencyModel
     currentKey: valueFromCurrency
@@ -91,8 +91,8 @@ ColumnLayout {
   }
 
   NComboBox {
-    label: "Moeda de Destino"
-    description: "Selecione a moeda de destino para conversão"
+    label: pluginApi?.tr("settings.to-currency.label") || "To Currency"
+    description: pluginApi?.tr("settings.to-currency.description") || "Select the target currency for conversion"
     Layout.fillWidth: true
     model: currencyModel
     currentKey: valueToCurrency
@@ -102,8 +102,8 @@ ColumnLayout {
   }
 
   NSpinBox {
-    label: "Intervalo de Atualização"
-    description: "Intervalo em minutos para atualizar as taxas de câmbio"
+    label: pluginApi?.tr("settings.update-interval.label") || "Update Interval"
+    description: pluginApi?.tr("settings.update-interval.description") || "Interval in minutes to update exchange rates"
     Layout.fillWidth: true
     from: 5
     to: 1440
@@ -114,21 +114,21 @@ ColumnLayout {
   }
 
   NComboBox {
-    label: "Modo de Exibição"
-    description: "Como exibir o widget na barra"
+    label: pluginApi?.tr("settings.display-mode.label") || "Display Mode"
+    description: pluginApi?.tr("settings.display-mode.description") || "How to display the widget in the bar"
     Layout.fillWidth: true
     model: [
       {
         "key": "both",
-        "name": "Ícone e Texto"
+        "name": pluginApi?.tr("settings.display-mode.both") || "Icon and Text"
       },
       {
         "key": "icon",
-        "name": "Apenas Ícone"
+        "name": pluginApi?.tr("settings.display-mode.icon") || "Icon Only"
       },
       {
         "key": "text",
-        "name": "Apenas Texto"
+        "name": pluginApi?.tr("settings.display-mode.text") || "Text Only"
       }
     ]
     currentKey: valueDisplayMode

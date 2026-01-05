@@ -1,4 +1,45 @@
 {
+  "settings": {
+    "title": "Настройки конвертера валют",
+    "from-currency": {
+      "label": "Исходная валюта",
+      "description": "Выберите исходную валюту для конвертации"
+    },
+    "to-currency": {
+      "label": "Целевая валюта",
+      "description": "Выберите целевую валюту для конвертации"
+    },
+    "update-interval": {
+      "label": "Интервал обновления",
+      "description": "Интервал в минутах для обновления курсов валют"
+    },
+    "display-mode": {
+      "label": "Режим отображения",
+      "description": "Как отображать виджет на панели",
+      "both": "Значок и Текст",
+      "icon": "Только Значок",
+      "text": "Только Текст"
+    }
+  },
+  "currency-converter": {
+    "title": "Конвертер валют",
+    "from": "Из",
+    "to": "В",
+    "swap": "Поменять валюты",
+    "refresh": "Обновить курсы"
+  },
+  "settings.title": "Настройки конвертера валют",
+  "settings.from-currency.label": "Исходная валюта",
+  "settings.from-currency.description": "Выберите исходную валюту для конвертации",
+  "settings.to-currency.label": "Целевая валюта",
+  "settings.to-currency.description": "Выберите целевую валюту для конвертации",
+  "settings.update-interval.label": "Интервал обновления",
+  "settings.update-interval.description": "Интервал в минутах для обновления курсов валют",
+  "settings.display-mode.label": "Режим отображения",
+  "settings.display-mode.description": "Как отображать виджет на панели",
+  "settings.display-mode.both": "Значок и Текст",
+  "settings.display-mode.icon": "Только Значок",
+  "settings.display-mode.text": "Только Текст",
   "bar.widget-settings.currency-converter.from-currency.label": "Исходная валюта",
   "bar.widget-settings.currency-converter.from-currency.description": "Выберите исходную валюту для конвертации",
   "bar.widget-settings.currency-converter.to-currency.label": "Целевая валюта",
@@ -11,6 +52,7 @@
   "bar.widget-settings.currency-converter.display-mode.icon": "Только значок",
   "bar.widget-settings.currency-converter.display-mode.text": "Только текст",
   "currency-converter.title": "Конвертер валют",
+  "currency-converter.settings.title": "Настройки конвертера валют",
   "currency-converter.from": "Из",
   "currency-converter.to": "В",
   "currency-converter.swap": "Поменять валюты",

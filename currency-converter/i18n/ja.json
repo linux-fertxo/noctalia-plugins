@@ -1,4 +1,45 @@
 {
+  "settings": {
+    "title": "通貨コンバーター設定",
+    "from-currency": {
+      "label": "元通貨",
+      "description": "変換する元通貨を選択"
+    },
+    "to-currency": {
+      "label": "先通貨",
+      "description": "変換する先通貨を選択"
+    },
+    "update-interval": {
+      "label": "更新間隔",
+      "description": "為替レートを更新する間隔（分）"
+    },
+    "display-mode": {
+      "label": "表示モード",
+      "description": "バーにウィジェットを表示する方法",
+      "both": "アイコンとテキスト",
+      "icon": "アイコンのみ",
+      "text": "テキストのみ"
+    }
+  },
+  "currency-converter": {
+    "title": "通貨コンバーター",
+    "from": "から",
+    "to": "まで",
+    "swap": "通貨を交換",
+    "refresh": "レートを更新"
+  },
+  "settings.title": "通貨コンバーター設定",
+  "settings.from-currency.label": "元通貨",
+  "settings.from-currency.description": "変換する元通貨を選択",
+  "settings.to-currency.label": "先通貨",
+  "settings.to-currency.description": "変換する先通貨を選択",
+  "settings.update-interval.label": "更新間隔",
+  "settings.update-interval.description": "為替レートを更新する間隔（分）",
+  "settings.display-mode.label": "表示モード",
+  "settings.display-mode.description": "バーにウィジェットを表示する方法",
+  "settings.display-mode.both": "アイコンとテキスト",
+  "settings.display-mode.icon": "アイコンのみ",
+  "settings.display-mode.text": "テキストのみ",
   "bar.widget-settings.currency-converter.from-currency.label": "換算元通貨",
   "bar.widget-settings.currency-converter.from-currency.description": "換算元の通貨を選択してください",
   "bar.widget-settings.currency-converter.to-currency.label": "換算先通貨",

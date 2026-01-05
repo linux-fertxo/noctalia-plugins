@@ -1,4 +1,33 @@
 {
+  "settings": {
+    "title": "Configurações do Conversor de Moedas",
+    "from-currency": {
+      "label": "Moeda de Origem",
+      "description": "Selecione a moeda de origem para conversão"
+    },
+    "to-currency": {
+      "label": "Moeda de Destino",
+      "description": "Selecione a moeda de destino para conversão"
+    },
+    "update-interval": {
+      "label": "Intervalo de Atualização",
+      "description": "Intervalo em minutos para atualizar as taxas de câmbio"
+    },
+    "display-mode": {
+      "label": "Modo de Exibição",
+      "description": "Como exibir o widget na barra",
+      "both": "Ícone e Texto",
+      "icon": "Apenas Ícone",
+      "text": "Apenas Texto"
+    }
+  },
+  "currency-converter": {
+    "title": "Conversor de Moedas",
+    "from": "De",
+    "to": "Para",
+    "swap": "Trocar moedas",
+    "refresh": "Atualizar cotações"
+  },
   "bar.widget-settings.currency-converter.from-currency.label": "Moeda de Origem",
   "bar.widget-settings.currency-converter.from-currency.description": "Selecione a moeda de origem para conversão",
   "bar.widget-settings.currency-converter.to-currency.label": "Moeda de Destino",
@@ -11,6 +40,7 @@
   "bar.widget-settings.currency-converter.display-mode.icon": "Apenas Ícone",
   "bar.widget-settings.currency-converter.display-mode.text": "Apenas Texto",
   "currency-converter.title": "Conversor de Moedas",
+  "currency-converter.settings.title": "Configurações do Conversor de Moedas",
   "currency-converter.from": "De",
   "currency-converter.to": "Para",
   "currency-converter.swap": "Trocar moedas",

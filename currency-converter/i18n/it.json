@@ -1,4 +1,45 @@
 {
+  "settings": {
+    "title": "Impostazioni del Convertitore di Valuta",
+    "from-currency": {
+      "label": "Valuta di Origine",
+      "description": "Seleziona la valuta di origine per la conversione"
+    },
+    "to-currency": {
+      "label": "Valuta di Destinazione",
+      "description": "Seleziona la valuta di destinazione per la conversione"
+    },
+    "update-interval": {
+      "label": "Intervallo di Aggiornamento",
+      "description": "Intervallo in minuti per aggiornare i tassi di cambio"
+    },
+    "display-mode": {
+      "label": "Modalità di Visualizzazione",
+      "description": "Come visualizzare il widget nella barra",
+      "both": "Icona e Testo",
+      "icon": "Solo Icona",
+      "text": "Solo Testo"
+    }
+  },
+  "currency-converter": {
+    "title": "Convertitore di Valuta",
+    "from": "Da",
+    "to": "A",
+    "swap": "Scambia valute",
+    "refresh": "Aggiorna tassi"
+  },
+  "settings.title": "Impostazioni del Convertitore di Valuta",
+  "settings.from-currency.label": "Valuta di Origine",
+  "settings.from-currency.description": "Seleziona la valuta di origine per la conversione",
+  "settings.to-currency.label": "Valuta di Destinazione",
+  "settings.to-currency.description": "Seleziona la valuta di destinazione per la conversione",
+  "settings.update-interval.label": "Intervallo di Aggiornamento",
+  "settings.update-interval.description": "Intervallo in minuti per aggiornare i tassi di cambio",
+  "settings.display-mode.label": "Modalità di Visualizzazione",
+  "settings.display-mode.description": "Come visualizzare il widget nella barra",
+  "settings.display-mode.both": "Icona e Testo",
+  "settings.display-mode.icon": "Solo Icona",
+  "settings.display-mode.text": "Solo Testo",
   "bar.widget-settings.currency-converter.from-currency.label": "Valuta di Origine",
   "bar.widget-settings.currency-converter.from-currency.description": "Seleziona la valuta di origine per la conversione",
   "bar.widget-settings.currency-converter.to-currency.label": "Valuta di Destinazione",
@@ -11,6 +52,7 @@
   "bar.widget-settings.currency-converter.display-mode.icon": "Solo Icona",
   "bar.widget-settings.currency-converter.display-mode.text": "Solo Testo",
   "currency-converter.title": "Convertitore di Valuta",
+  "currency-converter.settings.title": "Impostazioni del Convertitore di Valuta",
   "currency-converter.from": "Da",
   "currency-converter.to": "A",
   "currency-converter.swap": "Scambia valute",
