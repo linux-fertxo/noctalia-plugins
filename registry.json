@@ -142,19 +142,19 @@
     {
       "id": "noctalia-supergfxctl",
       "name": "SuperGFX Control",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "author": "cod3d <cod3ddot@proton.me>",
       "description": "GPU control with supergfxctl for noctalia.",
       "repository": "https://github.com/cod3ddot/noctalia-supergfxctl",
-      "minNoctaliaVersion": "3.7.5",
-      "license": "AGPL-3.0-or-later",
+      "minNoctaliaVersion": "3.8.2",
+      "license": "MIT",
       "tags": [
         "Bar",
         "Panel",
         "System",
         "Gaming"
       ],
-      "lastUpdated": "2026-01-04T21:11:31-05:00"
+      "lastUpdated": "2026-01-07T18:04:16-08:00"
     },
     {
       "id": "privacy-indicator",
