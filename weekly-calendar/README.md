@@ -7,7 +7,7 @@ A weekly calendar plugin complementing Noctalia's inbuilt calendar service.
 - **Bar Widget**: Show a quick tooltip to see current and upcoming events on hover (updates occur on click);
 - **Panel**: Complete weekly calendar interface supporting both all-day and normal events with a native-like interface;
 - **Keyboard Navigation**: Use arrow keys to navigate through your events;
-- **Settings**: Choose time format, first day of the week and grid line colour and opacity.
+- **Settings**: Choose time format, first day of the week, grid line colour and opacity.
 
 ## Installation
 
