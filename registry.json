@@ -233,7 +233,7 @@
     {
       "id": "network-indicator",
       "name": "NetworkIndicator",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": "tonigineer",
       "description": "A `lively` network traffic indicator.",
       "repository": "https://github.com/noctalia-dev/noctalia-plugins",
@@ -244,7 +244,7 @@
         "Network",
         "Indicator"
       ],
-      "lastUpdated": "2026-01-11T11:27:05-05:00"
+      "lastUpdated": "2026-01-25T18:33:08+01:00"
     },
     {
       "id": "noctalia-supergfxctl",
@@ -443,7 +443,7 @@
     {
       "id": "update-count",
       "name": "Update Count",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "author": "BukoMoon",
       "description": "Checks for system updates and shows the update count. Click to run update command in a terminal.",
       "repository": "https://github.com/noctalia-dev/noctalia-plugins",
@@ -453,7 +453,7 @@
         "Bar",
         "System"
       ],
-      "lastUpdated": "2026-01-11T11:27:05-05:00"
+      "lastUpdated": "2026-01-25T19:18:01+01:00"
     },
     {
       "id": "weekly-calendar",
