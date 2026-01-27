@@ -124,7 +124,7 @@
     {
       "id": "hello-world",
       "name": "Hello World",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "official": true,
       "author": "Noctalia Team",
       "description": "A simple Hello World plugin demonstrating functionalities. For developers only.",
@@ -134,7 +134,7 @@
       "tags": [
         "Development"
       ],
-      "lastUpdated": "2026-01-27T01:00:19-05:00"
+      "lastUpdated": "2026-01-27T14:01:09-05:00"
     },
     {
       "id": "hyprland-steam-overlay",
@@ -439,7 +439,7 @@
     {
       "id": "todo",
       "name": "Todo List",
-      "version": "1.8.2",
+      "version": "1.8.3",
       "official": false,
       "author": "lonerOrz <lonerOrz@qq.com>",
       "description": "A simple todo list manager plugin for Noctalia Shell.",
@@ -452,7 +452,7 @@
         "Panel",
         "Productivity"
       ],
-      "lastUpdated": "2026-01-26T23:59:29-05:00"
+      "lastUpdated": "2026-01-27T14:00:57-05:00"
     },
     {
       "id": "translator",
