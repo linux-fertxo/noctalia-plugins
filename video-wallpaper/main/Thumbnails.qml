@@ -126,22 +126,20 @@ Item {
 
         onTriggered: {
             if(thumbFolderModel.status == FolderListModel.Ready) {
-                root.pluginApi.withCurrentScreen(screen => {
-                    const thumbPath = root.getThumbPath(root.currentWallpaper);
-                    if(thumbFolderModel.indexOf("file://" + thumbPath) !== -1) {
-                        Logger.d("video-wallpaper", "Generating color scheme based on video wallpaper!");
-                        WallpaperService.changeWallpaper(thumbPath);
-                    } else {
-                        // Try to create the thumbnail again
-                        // just a fail safe if the current wallpaper isn't included in the wallpapers folder
-                        const videoUrl = folderModel.get(root._thumbGenIndex, "fileUrl");
-                        const thumbUrl = root.getThumbUrl(videoUrl);
+                const thumbPath = root.getThumbPath(root.currentWallpaper);
+                if(thumbFolderModel.indexOf("file://" + thumbPath) !== -1) {
+                    Logger.d("video-wallpaper", "Generating color scheme based on video wallpaper!");
+                    WallpaperService.changeWallpaper(thumbPath);
+                } else {
+                    // Try to create the thumbnail again
+                    // just a fail safe if the current wallpaper isn't included in the wallpapers folder
+                    const videoUrl = folderModel.get(root._thumbGenIndex, "fileUrl");
+                    const thumbUrl = root.getThumbUrl(videoUrl);
 
-                        Logger.d("video-wallpaper", "Thumbnail not found:", thumbPath);
-                        thumbColorGenTimerProc.command = ["sh", "-c", `ffmpeg -y -i ${videoUrl} -vframes:v 1 ${thumbUrl}`]
-                        thumbColorGenTimerProc.running = true;
-                    }
-                });
+                    Logger.d("video-wallpaper", "Thumbnail not found:", thumbPath);
+                    thumbColorGenTimerProc.command = ["sh", "-c", `ffmpeg -y -i ${videoUrl} -vframes:v 1 ${thumbUrl}`]
+                    thumbColorGenTimerProc.running = true;
+                }
             } else {
                 thumbColorGenTimer.restart();
             }
