@@ -16,9 +16,10 @@ ColumnLayout {
     /***************************
     * PROPERTIES
     ***************************/
-    property bool enabled: pluginApi.pluginSettings.enabled || false
+    property string activeBackend:  pluginApi.pluginSettings.activeBackend  || "qt6-multimedia"
+    property bool   enabled:        pluginApi.pluginSettings.enabled        || false
 
-    
+
     /***************************
     * COMPONENTS
     ***************************/
@@ -60,6 +61,12 @@ ColumnLayout {
             tabIndex: 1
             checked: subTabBar.currentIndex === 1
         }
+        NTabButton {
+            enabled: root.enabled
+            text: pluginApi?.tr("settings.tab_bar.advanced") || "Advanced"
+            tabIndex: 2
+            checked: subTabBar.currentIndex === 2
+        }
     }
 
     // The menu shown
@@ -75,6 +82,12 @@ ColumnLayout {
 
         AutomationTab {
             id: automation
+            pluginApi: root.pluginApi
+            enabled: root.enabled
+        }
+
+        AdvancedTab {
+            id: advanced
             pluginApi: root.pluginApi
             enabled: root.enabled
         }

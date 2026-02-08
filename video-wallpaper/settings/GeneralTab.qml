@@ -20,8 +20,6 @@ ColumnLayout {
     readonly property bool isPlaying:   pluginApi.pluginSettings.isPlaying  || false
 
     property string currentWallpaper:   pluginApi.pluginSettings.currentWallpaper   || ""
-    property int    fillMode:           pluginApi.pluginSettings.fillMode           || 0
-    property int    orientation:        pluginApi.pluginSettings.orientation        || 0
     property double volume:             pluginApi.pluginSettings.volume             || 1.0
     property string wallpapersFolder:   pluginApi.pluginSettings.wallpapersFolder   || "~/Pictures/Wallpapers"
 
@@ -101,60 +99,6 @@ ColumnLayout {
                     Logger.d("video-wallpaper", "Selected the following current wallpaper:", paths[0]);
                     root.currentWallpaper = paths[0];
                 }
-            }
-        }
-    }
-
-    NDivider {}
-
-    // Fill Mode
-    NComboBox {
-        enabled: root.enabled
-        Layout.fillWidth: true
-        label: root.pluginApi?.tr("settings.general.fill_mode.label") || "Fill Mode"
-        description: root.pluginApi?.tr("settings.general.fill_mode.description") || "The mode that the wallpaper is fitted into the background."
-        defaultValue: "0"
-        model: [
-            {
-                "key": "0",
-                "name": root.pluginApi?.tr("settings.general.fill_mode.stretch") || "Stretch"
-            },
-            {
-                "key": "1",
-                "name": root.pluginApi?.tr("settings.general.fill_mode.fit") || "Fit"
-            },
-            {
-                "key": "2",
-                "name": root.pluginApi?.tr("settings.general.fill_mode.crop") || "Crop"
-            }
-        ]
-        currentKey: root.fillMode
-        onSelected: key => root.fillMode = key
-    }
-
-    // Orientation
-    NValueSlider {
-        property real _value: root.orientation
-
-        enabled: root.enabled
-        from: -270
-        to: 270
-        value: root.orientation
-        defaultValue: 0
-        stepSize: 90
-        text: _value
-        label: root.pluginApi?.tr("settings.general.orientation.label") || "Orientation"
-        description: root.pluginApi?.tr("settings.general.orientation.description") || "The orientation of the video playing, can be any multiple of 90."
-        onMoved: value => _value = value
-        onPressedChanged: (pressed, value) => {
-            if(root.pluginApi == null) {
-                Logger.e("video-wallpaper", "Plugin API is null.");
-                return
-            }
-
-            if(!pressed) {
-                root.pluginApi.pluginSettings.orientation = value;
-                root.pluginApi.saveSettings();
             }
         }
     }
