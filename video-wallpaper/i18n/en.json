@@ -132,12 +132,21 @@
         "description": "How long it should take to switch the wallpaper.",
         "m": "{minute}m",
         "h": "{hour}h",
-        "5m": "5m",
-        "10m": "10m",
-        "30m": "30m",
-        "1h": "1h",
-        "1h30m": "1h 30m",
-        "2h": "2h"
+        "hour": "{count} hour",
+        "hour-plural": "{count} hours",
+        "minute": "{count} minute",
+        "minute-plural": "{count} minutes",
+        "custom": {
+          "create": {
+            "tooltip": "Create a custom time.",
+            "label": "Add Custom Time",
+            "description": "Enter time as HH:MM, (e.g. 1:20)",
+            "placeholder": "Example, 1:15",
+            "save": "Save",
+            "cancel": "Cancel"
+          },
+          "remove": "Remove"
+        }
       }
     },
     "advanced": {

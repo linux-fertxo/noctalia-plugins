@@ -6,6 +6,7 @@ Here I'll try to document all changes for the video-wallpaper plugin.
 
 - feat: Added support to use mpvpaper as a backend renderer.
 - feat: Added advanced settings page for more advanced settings, more specified to the renderer.
+- feat: Added the ability to have custom times for automatic wallpaper updates.
 - fix: Fixed thumbnails with weird names not being supported.
 - fix: Fixed warnings that might appear in the logs because of wrongly created variables.
 
